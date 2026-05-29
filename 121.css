@@ -1,0 +1,59 @@
+
+@media screen and (max-width: 515px){
+    header{
+        height:auto;
+        position: relative;
+    }
+    header a{
+        display: none;
+    }
+    .mobile_icon{
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        background: #ffffff;
+        padding: .5rem;
+        border-radius: 5px;
+        margin: 1rem;
+    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    margin: 0;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    background: #000000;
+}
+header{
+    display: flex;
+    height: 3rem;
+    align-items: center;
+    justify-self: center;
+    box-shadow: 0 0 5px #fff;
+}
+header a{
+    margin: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+h1{
+    margin: 1rem;
+}
+#grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+.photo img{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 90%;
+    height: 90%;
+}
+.photo p{
+    text-align: center;
+}
+.mobile_icon{
+    display: none;
+}
